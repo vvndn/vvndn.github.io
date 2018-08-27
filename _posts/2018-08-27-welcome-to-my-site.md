@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to my site!"
+title: "Welcome to my site"
 date: 2018-08-27
 ---
 
