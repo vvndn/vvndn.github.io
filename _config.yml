@@ -1,3 +1,5 @@
   name: Vivian Doan's Site
   markdown: kramdown
   baseurl: https://vvndn.github.io
+
+  permalink: /blog/:year/:month/:day/:title
