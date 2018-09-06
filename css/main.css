@@ -3,39 +3,45 @@ html {
 }
 
 body {
-    background-color: #e0ecff;
+    background-color: #C5ECFF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:300;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Quicksand', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
+nav ul li {
+    font-size: 2em;
+}
+
 nav ul li, footer ul li {
-    color: #02388c;
+    color: #568391;
     display: inline;
+    font-weight:300;
     margin-right: 20px;
 }
 a {
+    font-weight:400;
     text-decoration: none;
-    color: #1552b2;
+    color: #568391;
 }
 a:hover {
+    font-weight:500;
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Quicksand', sans-serif;
 }
 
-h2 {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-}
-
-h3 {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+h2, h3, h4, h5, {
+    font-family: 'Quicksand', sans-serif;
 }
 
 p {
@@ -44,8 +50,9 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #1552b2;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    border-top: 1px solid #568391;
+    color: #568391;
+    font-family: 'Quicksand', sans-serif;
     font-size: .8em;
 }
 
